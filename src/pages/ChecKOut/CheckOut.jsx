@@ -27,7 +27,7 @@ const CheckOut = () => {
         }
         console.log(booking);
 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://car-doctor-server-pied-phi.vercel.app/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
